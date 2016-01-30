@@ -1,0 +1,28 @@
+//
+// Engine.cpp for  in /home/soidik_d/Semestre_05/cpp/rtype/modules/engine
+// 
+// Made by SOIDIKI Djamil
+// Login   <soidik_d@epitech.net>
+// 
+// Started on  Sun Jan  3 13:31:45 2016 SOIDIKI Djamil
+// Last update Sun Jan  3 13:33:28 2016 SOIDIKI Djamil
+//
+
+#ifndef		_ENGINE_HH_
+# define	_ENGINE_HH_
+
+namespace	GameEngine {
+
+  class		Engine {
+
+  public:
+    Engine();
+    ~Engine();
+    
+    void	getInput();
+    void	update();
+    void	render();
+  };
+}
+
+#endif		/* _ENGINE_HH_ */
